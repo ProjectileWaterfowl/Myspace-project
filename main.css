@@ -1,0 +1,86 @@
+/* 
+font-family: 'Dongle', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Square Peg', cursive;
+*/
+
+body {
+    background-image: url('m&m2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    border: 5px double gold;
+    border-radius: 8px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+
+.button:active {
+    animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg);}
+    80% { transform: rotate(4deg);}
+    85% { transform: rotate(9deg);}
+    95% { transform: rotate(-9deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.a{
+    background-color: rgba(255, 255, 255, 0.950);
+}
+
+.b{
+     color: white;
+     background-color: blue;
+     display:block;
+}
+
+.c{ font-size: 50px;
+      background-color: green;
+}
+
+.d{ font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.950);
+}
+
+.e{
+    background-color: brown;
+}
+
+.quote {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+}
+
+.friends{
+    border: 5px dashed;
+    border-radius: 8px;
+}
+
+.button{ 
+    display:block;
+    border-style: none;
+}
+
+p {
+    border: none;
+}
+
+.title {
+    font-size: 56px;
+    font-family: monospace;
+    color:blueviolet;
+}
+i {
+    border-style: none;
+}
